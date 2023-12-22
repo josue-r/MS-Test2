@@ -1,9 +1,0 @@
-trigger:
-- main
-resources:
-  repositories:
-  - repository: Pipelines
-    type: git
-    name: pipelines
-extends:
-  template: ms/template.yml@pipelines
